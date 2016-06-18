@@ -4,7 +4,7 @@
   "description": "Manage your garden through the web",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/.bin/nodemon"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,9 @@
     "url": "https://github.com/derekstavis/webgarden/issues"
   },
   "homepage": "https://github.com/derekstavis/webgarden",
+  "engines" : {
+    "node" : "^6.2.0"
+  },
   "dependencies": {
     "body-parser": "^1.14.1",
     "cookie-parser": "^1.4.0",
