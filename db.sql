@@ -20,6 +20,10 @@ ENGINE = InnoDB
 AUTO_INCREMENT = 2
 DEFAULT CHARACTER SET = utf8;
 
+INSERT INTO `garden`.`users` (name, pass) VALUES ('derek', '123456');
+INSERT INTO `garden`.`users` (name, pass) VALUES ('jack', '123456');
+INSERT INTO `garden`.`users` (name, pass) VALUES ('john', '123456');
+
 
 -- -----------------------------------------------------
 -- Table `garden`.`plants`
